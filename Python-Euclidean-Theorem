@@ -1,0 +1,9 @@
+def main():
+        a = float(input("Birinci dik kenarı girin: "))
+        b = float(input("İkinci dik kenarı girin: "))
+        
+        hipotenüs = ((a**2 + b**2) ** 0.5)
+        print("Hipotenüs:", hipotenüs)
+
+if __name__ == "__main__":
+    main()
